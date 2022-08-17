@@ -1,0 +1,23 @@
+---
+title: "RMK"
+output: html_document
+date: '2022-04-30'
+---
+
+```{r}
+library(tidyverse)
+library(reticulate)
+```
+
+```{python}
+import numpy as np
+import pandas as pd
+import matplotlib as plt
+import scikit as sk  
+import sklearn as skl
+
+
+from sklearn.metrics import accuracy_score
+
+```
+
